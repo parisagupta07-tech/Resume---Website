@@ -1,0 +1,421 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 0 24px;
+    background-color: #173f35;
+    border-bottom: 3px solid #e2b36f;
+}
+
+nav a {
+    color: #f7f3e8;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e2b36f;
+    text-decoration: underline;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.button {
+    padding: 12px 20px;
+    border: 2px solid #173f35;
+    background-color: #173f35;
+    color: #f7f3e8;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #315b4e;
+}
+
+.home {
+    min-height: 600px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 60px 100px;
+    background-color: #f7f3e8;
+}
+
+.homecopy {
+    flex: 1;
+    max-width: 700px;
+}
+
+.welcome {
+    margin: 0 0 20px;
+    color: #9a6b27;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.home h1 {
+    margin: 0 0 20px;
+    color: #173f35;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 48px;
+}
+
+.home h2 {
+    margin: 0 0 24px;
+    color: #315b4e;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.intro {
+    max-width: 700px;
+    margin: 0;
+    color: #444;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.photo {
+    flex: 0 1 360px;
+    width: 360px;
+    max-width: 100%;
+    height: auto;
+}
+
+.about {
+    padding: 60px 100px;
+    background-color: #e8eee5;
+    text-align: center;
+}
+
+.about1 {
+    margin: 0 0 20px;
+    color: #9a6b27;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.about h2 {
+    margin: 0 0 20px;
+    color: #173f35;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 40px;
+}
+
+.about2 {
+    margin: 0;
+    color: #315b4e;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 30%;
+    min-height: 200px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.card h3 {
+    margin: 0;
+    color: #315b4e;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card h4 {
+    margin: 20px 0 0;
+    color: #315b4e;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#e1 h3,
+#s1 h3,
+#c1 h3,
+#l1 h3,
+.row #p2 h3,
+#i1 h3 {
+    color: #173f35;
+    font-size: 28px;
+}
+
+#e1 {
+    width: 65%;
+}
+
+#s1 {
+    width: 30%;
+}
+
+#c1 {
+    width: 65%;
+}
+
+#l1 {
+    width: 30%;
+}
+
+.row #p2 {
+    width: 65%;
+}
+
+#i1 {
+    width: 30%;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+    width: 90%;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+#c1 ul,
+#l1 ul,
+.row #p2 ul,
+#i1 ul {
+    margin: 20px 0 0;
+    padding-left: 24px;
+    color: #53665e;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.card .status {
+    margin: 20px 0 20px;
+    color: #53665e;
+}
+
+.degree {
+    margin: 20px 0 0 20px;
+}
+
+.degree h4 {
+    margin: 0;
+}
+
+.card .college {
+    margin: 10px 0 0;
+    color: #777;
+    font-size: 16px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills li {
+    padding: 10px 16px;
+    border-radius: 20px;
+    background-color: #e8eee5;
+    color: #315b4e;
+    font-size: 16px;
+}
+
+.card p {
+    margin: 20px 0 0;
+    color: #53665e;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.page {
+    min-height: 600px;
+    box-sizing: border-box;
+    padding: 60px 100px;
+    background-color: #f7f3e8;
+}
+
+.page h1 {
+    color: #173f35;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 48px;
+}
+
+.contactrow {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contactinfo,
+.contactform {
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.contactinfo > p {
+    max-width: 500px;
+    color: #53665e;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.contactdetail {
+    margin-top: 30px;
+}
+
+.contactdetail h2 {
+    margin: 0 0 8px;
+    color: #173f35;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 20px;
+}
+
+.contactdetail p,
+.contactdetail a {
+    margin: 0;
+    color: #53665e;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.contactform label {
+    color: #315b4e;
+    font-weight: 600;
+}
+
+.contactform input,
+.contactform textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd6c9;
+    border-radius: 8px;
+    font: inherit;
+}
+
+.contactform button {
+    align-self: flex-start;
+    margin-top: 8px;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #173f35;
+    color: #f7f3e8;
+    font: inherit;
+    font-weight: 600;
+}
+
+.projectrow {
+    display: flex;
+    gap: 30px;
+    width: 90%;
+    max-width: 1400px;
+    margin: 40px auto 0;
+}
+
+.projectrow .card {
+    width: 33%;
+    height: 600px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.phead {
+    height: 165px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    padding: 30px;
+    background-color: #dce8da;
+    color: #173f35;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 24px;
+}
+
+.ptext {
+    padding: 30px;
+}
+
+.ptag {
+    margin: 0;
+    color: #9a6b27;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ptext h3 {
+    margin: 10px 0 20px;
+    color: #173f35;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 26px;
+}
+
+.ptext p:not(.ptag) {
+    margin: 0;
+    color: #53665e;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.ptext h4 {
+    margin: 30px 0 0;
+    color: #173f35;
+    font-size: 20px;
+}
+
+.ptext ul {
+    margin: 20px 0 0;
+    padding-left: 24px;
+    color: #53665e;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.ptext li {
+    margin-bottom: 12px;
+}
